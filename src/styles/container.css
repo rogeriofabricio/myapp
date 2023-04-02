@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.coluna-70 {
+    width: 70%;
+}
+
+.coluna-30 {
+    width: 30%;
+}
