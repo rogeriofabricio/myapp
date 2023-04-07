@@ -6,12 +6,14 @@ import '../styles/container.css';
 export default function Container() {
     
     return (
-        <div className="container">
-            <div className="coluna-70">
-                <Body />
-            </div>
-            <div className="coluna-30">
-                <SideBar />
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <Body />
+                </div>
+                <div class="col-2">
+                    <SideBar />
+                </div>
             </div>
         </div>
     )
